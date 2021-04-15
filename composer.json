@@ -1,0 +1,22 @@
+{
+    "name": "lgx/rafalocsv",
+    "description": "Imports posts and pages from CSV file",
+    "type": "wordpress-plugin",
+    "license": "Commercial",
+    "authors": [
+        {
+            "name": "LGX",
+            "email": "inbound@rafalocsv.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Rafalocsv\\": "./includes/"
+        },
+        "files": [
+            "./includes/functions.php"
+        ]
+    }
+}
